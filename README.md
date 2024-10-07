@@ -1,10 +1,10 @@
 # Transaction History API Client
 
-This project is a C# console application that interacts with the EPİAŞ Transparency API to fetch transaction history data. The application authenticates a user with their credentials to retrieve a Ticket Granting Ticket (TGT) and then uses that ticket to request transaction history data for a specified date range.
+This project is a C# console application that interacts with the EPİAŞ Transparency API to fetch transaction history data. The application authenticates a user with their credentials to retrieve a TGT and then uses that ticket to request transaction history data for a specified date range.
 
 ## Features
 
-- User authentication to obtain a Ticket Granting Ticket (TGT).
+- User authentication to obtain a TGT.
 - Fetch transaction history based on specified start and end dates.
 - Calculation of total quantities and weighted average prices based on transaction data.
 - Group transaction data by contract name and calculate totals and averages.
